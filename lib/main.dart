@@ -14,7 +14,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'omik sanefa ',
       debugShowCheckedModeBanner: false,
+      themeMode: ThemeMode.dark,
+      darkTheme: ThemeData.dark(),
       theme: ThemeData(
+
+
         primarySwatch: Colors.blue,
         primaryColor: Colors.white,
         textTheme: TextTheme(
