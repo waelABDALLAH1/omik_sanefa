@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:recipe_list/splashpage.dart';
 import 'package:recipe_list/views/home.dart';
 
 void main() {
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
           bodyText2: TextStyle(color: Colors.white),
         )
       ),
-      home: HomePage(),
+      home: MySplashPage(),
     );
   }
 }
