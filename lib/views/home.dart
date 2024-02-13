@@ -15,12 +15,6 @@ class _HomePageState extends State<HomePage> {
   List<Recipe> _recipes = [];
   bool _isLoading = true;
 
-  @override
-  void initState() {
-    super.initState();
-
-    getRecipes();
-  }
 
   Future<void> getRecipes() async {
     _recipes = await RecipeApi.getRecipe();
